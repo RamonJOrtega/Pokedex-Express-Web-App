@@ -1,0 +1,14 @@
+<body>
+    <h1 id="myP">Shiny Bois Pokedex</h1>
+
+    <%- title %> <br> <br>
+    
+    <% for( let i = 0; i < pokemon.length; i++ ) { %>
+        <%- i+1 %> <%- pokemon[i][0] %> <br>
+        <img src="<%- pokemon[i][1] %> "> <br> <br>
+    <% } %>
+
+    <a href="/sam"> <br> <br> go to sam </a>
+    
+</body>
+

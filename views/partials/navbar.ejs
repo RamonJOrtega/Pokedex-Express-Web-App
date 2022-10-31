@@ -1,0 +1,13 @@
+<head>
+    <link rel="stylesheet" href="../../navbar.css">
+</head>
+<div class="topnav">
+    <a class="active" href="/">Home</a>
+
+    <!-- <a href="/number/10">10</a>
+    <a href="/number/100">100</a> -->
+    <% for( let index = 1; index <= pokemon.length; index++ ) { %>
+        <a href="/number/<%- index %> "><%- index %> </a>
+    <% } %>
+    <a href="/sam">Sam</a>        
+</div>
