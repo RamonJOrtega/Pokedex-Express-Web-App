@@ -4,5 +4,5 @@ The data gets put into a Railway postGRESQLonline database and also is displayed
 Search pokemon by image.
 See below!
 
-![alt text]("http://gitub.com/RamonJOrtega/pokemonApp1.png")
-![alt text]("http://gitub.com/RamonJOrtega/pokemonApp2.png")
+![alt text]("https://github.com/RamonJOrtega/Pokedex-Express-Web-App/blob/main/pokemonApp1.png)
+![alt text]("https://github.com/RamonJOrtega/Pokedex-Express-Web-App/blob/main/pokemonApp2.png")
