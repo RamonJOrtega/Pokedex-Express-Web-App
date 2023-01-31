@@ -2,13 +2,16 @@
     <h1 id="myP">Shiny Bois Pokedex</h1>
 
     <%- title %> <br> <br>
+    <div class="flex-container">
+        <% for( let i = 0; i < pokemon.length; i++ ) { %>
+            <div>
+                <div> <%- i+1 %> <%- pokemon[i][0] %> </div>
+                <a href= <%- "/number/"+(i+1) %>> <img src="<%- pokemon[i][1] %> "> </a>
+                </div>>
+            </br>
+        <% } %>
+    </div>
     
-    <% for( let i = 0; i < pokemon.length; i++ ) { %>
-        <%- i+1 %> <%- pokemon[i][0] %> <br>
-        <img src="<%- pokemon[i][1] %> "> <br> <br>
-    <% } %>
-
-    <a href="/sam"> <br> <br> go to sam </a>
     
 </body>
 
